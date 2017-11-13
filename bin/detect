@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
-echo $1 + '/konga/package.json'
+
 if [ -f $1/konga/package.json ]; then
   echo 'Node.js'
   exit 0
